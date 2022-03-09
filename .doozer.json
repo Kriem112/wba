@@ -17,8 +17,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache",
         "libx11-xcb-dev"
@@ -45,8 +45,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -72,8 +72,8 @@
         "liburiparser-dev",
         "libpcre2-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -98,8 +98,8 @@
         "liburiparser-dev",
         "libpcre2-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -125,8 +125,8 @@
         "liburiparser-dev",
         "libpcre2-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -152,8 +152,8 @@
         "liburiparser-dev",
         "libpcre2-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -179,8 +179,8 @@
         "liburiparser-dev",
         "libpcre2-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -206,13 +206,13 @@
         "liburiparser-dev",
         "libpcre2-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--enable-ccache\\ --enable-ffmpeg_static\\ --python3=python3 --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}",
+        "AUTOBUILD_CONFIGURE_EXTRA=--enable-ccache\\ --enable-ffmpeg_static\\ --python=python3 --enable-hdhomerun_static ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}",
         "support/bintray.py publish filelist.txt",
       ]
     },
@@ -239,7 +239,7 @@
         "ccache"
       ],
       "buildcmd": [
-        "AUTOBUILD_CONFIGURE_EXTRA=--enable-ccache\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static\\ --python3=python3 ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}",
+        "AUTOBUILD_CONFIGURE_EXTRA=--enable-ccache\\ --enable-ffmpeg_static\\ --enable-hdhomerun_static\\ --python=python3 ./Autobuild.sh -t ${TARGET} -j ${PARALLEL} -w ${WORKDIR}",
         "python3 support/bintray.py publish filelist.txt",
       ]
     },
@@ -261,8 +261,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache",
         "sudo",
@@ -291,8 +291,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache",
         "sudo",
@@ -321,8 +321,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -349,8 +349,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -377,8 +377,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -405,8 +405,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -433,7 +433,7 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
+        "python",
         "python3-requests",
         "debhelper",
         "ccache"
@@ -461,7 +461,7 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
+        "python",
         "python3-requests",
         "debhelper",
         "ccache"
@@ -489,7 +489,7 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
+        "python",
         "python3-requests",
         "debhelper",
         "ccache"
@@ -517,7 +517,7 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
+        "python",
         "python3-requests",
         "debhelper",
         "ccache"
@@ -544,8 +544,8 @@
         "liburiparser-dev",
         "libpcre3-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache",
         "sudo",
@@ -572,8 +572,8 @@
         "liburiparser-dev",
         "libpcre2-dev",
         "libdvbcsa-dev",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "debhelper",
         "ccache"
       ],
@@ -603,8 +603,8 @@
         "bzip2",
         "uriparser-devel",
         "pcre2-devel",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "ccache"
       ],
       "buildcmd": [
@@ -633,8 +633,8 @@
         "bzip2",
         "uriparser-devel",
         "pcre2-devel",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "ccache"
       ],
       "buildcmd": [
@@ -663,8 +663,8 @@
         "bzip2",
         "uriparser-devel",
         "pcre2-devel",
-        "python3",
-        "python3-requests",
+        "python",
+        "python-requests",
         "ccache"
       ],
       "buildcmd": [
