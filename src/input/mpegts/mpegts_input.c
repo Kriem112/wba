@@ -821,8 +821,7 @@ void
 mpegts_input_open_cat_monitor
   ( mpegts_mux_t *mm, mpegts_service_t *s )
 {
-  if (s->s_cat_mon)
-    mpegts_table_destroy(s_cat_mon);
+  assert(s->s_cat_mon == NULL);
   s->s_cat_mon =
     mpegts_table_add(mm, DVB_CAT_BASE, DVB_CAT_MASK,
                      mpegts_input_cat_pass_callback, s, "cat",
