@@ -8,6 +8,7 @@ Description=Tvheadend - a TV streaming server and DVR
 After=auditd.service syslog.target network.target local-fs.target
 
 [Service]
+Nice=-10
 EnvironmentFile=/etc/default/tvheadend
 ExecStart=/usr/bin/tvheadend -f -p /run/tvheadend.pid $OPTIONS
 PIDFile=/run/tvheadend.pid
